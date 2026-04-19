@@ -1,0 +1,6 @@
+- name: Test Telegram connection
+  run: |
+    echo "Testing connection to Telegram..."
+    curl -I https://api.telegram.org
+    echo "---"
+    ping -c 3 149.154.167.99
